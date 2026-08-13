@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="TheNosh — Real Food in Baisour. Sandwiches, burgers, plates, appetizers and more.">
+  <meta name="theme-color" content="#101010">
+  <link rel="canonical" href="https://thenoshrealfood.com/">
+  <title>TheNosh | Real Food</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="topbar">THE NOSH · Restaurant · BAISOUR <span>Open Tue–Sun · 2–11 PM</span></div>
+
+  <header class="header">
+    <a class="logo" href="#home" aria-label="TheNosh home">
+      <span class="logo-icon"><i></i><i></i><i></i></span>
+      <span class="logo-type"><b>TheNosh</b><small>REAL FOOD</small></span>
+    </a>
+
+    <nav class="nav" aria-label="Primary">
+      <a href="#menu">Menu</a>
+      <a href="#story">Our Story</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#visit">Visit</a>
+    </nav>
+
+    <div class="header-right">
+      <button class="button dark" data-reserve>Reserve</button>
+      <button class="hamburger" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <div class="mobile-nav">
+    <a href="#menu">Menu</a><a href="#story">Our Story</a><a href="#gallery">Gallery</a><a href="#visit">Visit</a>
+    <button class="button dark" data-reserve>Reserve a table</button>
+  </div>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-photo">
+        <img src="images/unnamed.jpg" alt="TheNosh restaurant storefront in Baisour" loading="eager">
+      </div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="kicker light">THE NOSH · BAISOUR</p>
+        <h1>Real food.<br><em>Nothing fake.</em></h1>
+        <p class="hero-lead">Good ingredients, bold plates and a room made for staying a little longer.</p>
+        <div class="hero-actions">
+          <a class="button lime" href="#menu">See the menu <span>↓</span></a>
+          <button class="link-button light" data-reserve>Book a table ↗</button>
+        </div>
+      </div>
+      <div class="hero-badge">
+        <strong>5.0</strong>
+        <span>★★★★★</span>
+        <small>Western restaurant</small>
+      </div>
+    </section>
+
+    <section class="ticker"><span>REAL INGREDIENTS</span><b>✦</b><span>BIG FLAVOUR</span><b>✦</b><span>MADE WITH CARE</span><b>✦</b><span>GOOD COMPANY</span></section>
+
+    <section class="intro section">
+      <div>
+        <p class="kicker">THE MENU</p>
+        <h2>Food worth<br><em>talking about.</em></h2>
+      </div>
+      <div class="intro-copy">
+        <p>From smoked pollo and shrimp sandwiches to steak plates, sliders and fresh sides, TheNosh keeps the food straightforward and the flavour loud.</p>
+        <a class="underlined" href="#menu">Explore everything →</a>
+      </div>
+    </section>
+
+    <section class="featured-photo">
+      <img src="images/5.jpg" alt="TheNosh sharing platter with steak and sides" loading="lazy">
+      <div class="featured-caption"><span>01</span><b>MADE TO SHARE.</b><small>Fresh plates · bold flavours</small></div>
+    </section>
+
+    <section class="menu section" id="menu">
+      <div class="section-head">
+        <div><p class="kicker">WHAT'S COOKING</p><h2>The actual<br><em>menu.</em></h2></div>
+        <p>Prices and dish names below are taken from the menu photos supplied for this website. Tap a category to filter.</p>
+      </div>
+
+      <div class="filters" id="filters"></div>
+      <div class="menu-list" id="menuList"></div>
+    </section>
+
+    <section class="story" id="story">
+      <div class="story-image"><img src="images/9.jpg" alt="TheNosh food and restaurant interior" loading="lazy"></div>
+      <div class="story-copy">
+        <p class="kicker">OUR PHILOSOPHY</p>
+        <h2>Simple food.<br><em>Serious flavour.</em></h2>
+        <p>TheNosh is about real food made to be enjoyed — from the first bite to the last conversation at the table.</p>
+        <p>This layout is ready for the restaurant's own story, chef introduction, sourcing philosophy or a message from the owners.</p>
+        <a class="underlined" href="tel:+96176054688">Call TheNosh →</a>
+      </div>
+    </section>
+
+    <section class="gallery section" id="gallery">
+      <div class="section-head">
+        <div><p class="kicker">FROM THE NOSH</p><h2>A taste of<br><em>the place.</em></h2></div>
+        <p>Real photos supplied for the website. Tap a photo to view it larger.</p>
+      </div>
+      <div class="gallery-grid">
+        <button class="gallery-item tall" data-lightbox="images/1.jpg"><img src="images/1.jpg" alt="TheNosh sandwich with shrimp"></button>
+        <button class="gallery-item" data-lightbox="images/3.jpg"><img src="images/3.jpg" alt="TheNosh fresh sharing plate"></button>
+        <button class="gallery-item" data-lightbox="images/4.jpg"><img src="images/4.jpg" alt="TheNosh plate with potatoes and sides"></button>
+        <button class="gallery-item wide" data-lightbox="images/6.jpg"><img src="images/6.jpg" alt="TheNosh steak platter"></button>
+        <button class="gallery-item" data-lightbox="images/7.jpg"><img src="images/7.jpg" alt="TheNosh mixed plate"></button>
+        <button class="gallery-item" data-lightbox="images/8.jpg"><img src="images/8.jpg" alt="TheNosh sandwich"></button>
+      </div>
+    </section>
+
+    <section class="visit" id="visit">
+      <div class="visit-head">
+        <div><p class="kicker light">COME BY</p><h2>Baisour.<br><em>See you soon.</em></h2></div>
+        <a class="button lime" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Baisour">Open Maps ↗</a>
+      </div>
+      <div class="visit-grid">
+        <article><span class="visit-icon">⌖</span><h3>Address</h3><p>Baisour</p><a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Baisour">Get directions →</a></article>
+        <article><span class="visit-icon">◷</span><h3>Opening hours</h3><ul><li><span>Monday</span><b>Closed</b></li><li><span>Tuesday</span><b>2–11 PM</b></li><li><span>Wednesday</span><b>2–11 PM</b></li><li><span>Thursday</span><b>2–11 PM</b></li><li><span>Friday</span><b>2–11 PM</b></li><li><span>Saturday</span><b>2–11 PM</b></li><li><span>Sunday</span><b>2–11 PM</b></li></ul><small>Hours may differ on holidays.</small></article>
+        <article><span class="visit-icon">☎</span><h3>Contact</h3><a class="button lime contact-button" href="tel:+96176054688">Contact TheNosh →</a></article>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div><p class="kicker">YOUR TABLE IS WAITING</p><h2>Make dinner plans.</h2></div>
+      <button class="button light-button" data-reserve>Reserve a table →</button>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="logo" href="#home"><span class="logo-icon"><i></i><i></i><i></i></span><span class="logo-type"><b>TheNosh</b><small>REAL FOOD</small></span></a>
+    <div class="footer-links"><a href="#menu">Menu</a><a href="#story">Our Story</a><a href="#gallery">Gallery</a><a href="#visit">Visit</a></div>
+    <div class="footer-right"><a href="tel:+96176054688">+961 76 054 688</a><span>Baisour</span><span>© <span id="year"></span> TheNosh</span></div>
+  </footer>
+
+  <!-- Reservation -->
+  <div class="modal" id="reservationModal" aria-hidden="true">
+    <div class="backdrop" data-close></div>
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="reserveTitle">
+      <button class="close" data-close aria-label="Close">×</button>
+      <p class="kicker">BOOK A TABLE</p>
+      <h2 id="reserveTitle">See you at<br><em>TheNosh.</em></h2>
+      <p class="muted">Fill this in and the website will prepare a WhatsApp reservation message to the restaurant.</p>
+      <form id="reserveForm">
+        <label>Name<input name="name" required placeholder="Your name"></label>
+        <label>Phone<input name="phone" required type="tel" placeholder="Your phone"></label>
+        <div class="two"><label>Date<input id="date" name="date" required type="date"></label><label>Time<select name="time" required><option value="">Select</option><option>2:00 PM</option><option>3:00 PM</option><option>4:00 PM</option><option>5:00 PM</option><option>6:00 PM</option><option>7:00 PM</option><option>8:00 PM</option><option>9:00 PM</option><option>10:00 PM</option></select></label></div>
+        <label>Guests<select name="guests"><option>1</option><option selected>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option></select></label>
+        <label>Special request<textarea name="request" rows="3" placeholder="Optional"></textarea></label>
+        <button class="button dark full" type="submit">Continue to WhatsApp →</button>
+        <p id="reserveMessage" class="form-message"></p>
+      </form>
+    </div>
+  </div>
+
+  <!-- Image lightbox -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" data-lightbox-close aria-label="Close image">×</button>
+    <img id="lightboxImg" alt="">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
