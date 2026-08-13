@@ -1,9 +1,12 @@
-THE NOSH — REAL FOOD RESTAURANT WEBSITE
+# TheNosh — Real Food Restaurant Website
 
-A responsive restaurant website designed and developed for TheNosh, a Western restaurant based in Baisour, Lebanon.
+A responsive restaurant website designed and developed for **TheNosh**, a Western restaurant based in Baisour, Lebanon.
 
-LIVE DEMO
-https://dr-strangex.github.io/TheNosh-RealFood-website/
+![TheNosh Restaurant Website](images/website-preview.png)
+
+## 🌐 Live Demo
+
+**[View the live website](https://dr-strangex.github.io/TheNosh-RealFood-website/)**
 
 TECHNOLOGIES
 - HTML5
